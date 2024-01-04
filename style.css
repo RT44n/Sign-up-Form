@@ -15,19 +15,17 @@ html, body{
     flex: auto;
     justify-content: space-around;
   
-
-   
     width: 30%;
-    background-image: url(neom-V1NTzSrnXvw-unsplash.jpg);
+    background-image: url(fahrul-azmi-9OU7c_Spzw8-unsplash.jpg);
+    background-size: cover;
 }
 
 .right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     flex: auto;
-
-  
+    
     width: 70%;
+    background-color: whitesmoke;
 }
