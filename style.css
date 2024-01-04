@@ -29,3 +29,19 @@ html, body{
     width: 70%;
     background-color: whitesmoke;
 }
+
+.logo  {
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+
+}
+
+.logoName{
+    color: white;
+    font-family: ;
+}
+
