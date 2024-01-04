@@ -1,5 +1,33 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.fullPage{
+    display: flex;
+    min-height: 100%;
+}
+
 
 .left{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-around;
+  
+
    
+    width: 30%;
     background-image: url(neom-V1NTzSrnXvw-unsplash.jpg);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    flex: auto;
+
+  
+    width: 70%;
 }
