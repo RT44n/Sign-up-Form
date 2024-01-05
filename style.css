@@ -1,6 +1,7 @@
 html, body{
     height: 100%;
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @font-face {
@@ -20,7 +21,7 @@ html, body{
     flex: auto;
     justify-content: space-between;
   
-    width: 30%;
+    width: 35%;
     background-image: url(fahrul-azmi-9OU7c_Spzw8-unsplash.jpg);
     background-size: cover;
 }
@@ -31,7 +32,7 @@ html, body{
     justify-content: space-around;
     flex: auto;
     
-    width: 70%;
+    width: 65%;
     background-color: whitesmoke;
 }
 
