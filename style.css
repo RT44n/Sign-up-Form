@@ -98,32 +98,94 @@ html, body{
   padding-right: 30%;
 }
 
-.submitBg{
-    height: 35%;
-    background-color: gainsboro;
-    padding: 5%;
+.formDiv{
+    display: flex;
+    flex-direction: column;
 }
-
-
 
 
 
 .form{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    background-color: #F6F7F8;   
+}
+
+.formtop, .formMid, .formbottom{
+    display: flex;
     flex-direction: row;
-    background-color: #F6F7F8;
+    margin-right: 30%;
+    margin-left: 0;
+    justify-content: space-between;
     
 }
+
+
+
 
 
 .formRow{
     display: flex;
     flex-direction: column;
     font-size: 12px;
-
+    
     margin-top: 16px;
+}
+
+
+.formRow input[type='text'],
+.formRow input[type='email'],
+.formRow input[type='password'],
+.formRow input[type='tel'] {
+
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+
+.formRow input[type='text'] :focus,
+.formRow input[type='email'] :focus,
+.formRow input[type='password'] :focus,
+.formRow input[type='tel'] :focus{
+    border: 1px solid blue;
+    color: blue;
+    box-shadow: none;
+}
+
+  .formRow label {
+   color: black;
+   letter-spacing: 1px;
+  }
+  
+.submitBg{
+    height: 35%;
+    background-color: gainsboro;
+    padding: 5%;
+}
+.submit >p > a:link{
+    color: #596D48;
+    text-decoration: underline;
+}
+
+.submitb >p > a:visited{
+    color: #596D48;
+    text-decoration: underline;
+}
+
+.submit{
+    background-color: #596D48;
+    padding: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    box-shadow: black;
 }
 
 
